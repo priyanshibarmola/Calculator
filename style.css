@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 60px; */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+}
+
+#name{
+    height: 20px;
+    width: 80%;
+}
+
+.b{
+    height: 20px;
+    width: 60px;
+}
